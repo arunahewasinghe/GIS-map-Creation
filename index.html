@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIS map Creation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            color: #2b3e50;
+        }
+        .details {
+            margin-top: 20px;
+            padding: 20px;
+            background: #e6f7ff;
+            border-left: 5px solid #007acc;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to GIS map Creation</h1>
+    <img src="{{ url_for('static', filename='gis_banner.jpeg') }}" alt="GIS Mapping Image">
+
+    <div class="details">
+        <div class="section-title">Contact Number:</div>
+        <p>0717131780</p>
+
+        <div class="section-title">Use Software:</div>
+        <p>ArcGIS, QGIS, ERDAS</p>
+
+        <div class="section-title">Our Services:</div>
+        <ul>
+            <li>Digital Data Creating</li>
+            <li>GIS Analysis</li>
+            <li>Model Builders</li>
+            <li>Study Area Maps</li>
+            <li>Any Other Custom Maps</li>
+        </ul>
+    </div>
+</body>
+</html>
